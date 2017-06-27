@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300,400);
+body {
+    font-family: 'Roboto Slab';
+}
+.smaller .remark-code {
+    font-size: 90%;
+}
+.smaller {
+    font-size: 80%;
+}
+.big {
+    font-size: 120%;
+}
+.bigger {
+    font-size: 150%;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.remark-code, .remark-inline-code { font-family: 'Roboto Mono'; }
+.remark-slide-content {
+    background-image: url(../images/criteo-logo.svg);
+    background-position: 2% 98%;
+    background-size: 124px 32px;
+    font-size: 146%;
+}
+.remark-slide-content h1, h2, h3 {
+    font-weight: normal;
+}
+.remark-slide-content h1 {
+    font-size: 180%;
+    margin-top: 0.3em;
+    margin-bottom: 0.4em;
+}
+.remark-slide-content h2 {
+    font-size: 140%;
+}
+.remark-slide-content h3 {
+    font-size: 116%;
+}
+.small_breath p {
+    margin-bottom: 0.6em;
+}
+.smaller_breath p {
+    margin-bottom: 0.3em;
+}
+pre {
+    margin: 0.5em 0;
+}
+ul {
+    margin-top: 0em;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 0.4em 0.6em;
+}
+
+.left-column {float:left}
+.right-column {float:right}
+.split-30 .left-column {width: 27%; padding-right: 3%;}
+.split-30 .right-column {width: 70%;}
+.split-40 .left-column {width: 37%; padding-righ: 3%;}
+.split-40 .right-column {width: 60%;}
+.split-50 .left-column {width: 47%; padding-righ: 3%;}
+.split-50 .right-column {width: 50%;}
+
+img[alt=criteo_display] {
+    width: 90%;
+}
+
+img[alt=commits_to_prod] {
+    width: 86%;
+}
+
+.posimg {
+    height: 228px;
+    overflow: hidden;
+}
+.posimg img {
+    width: 960px;
+    height: auto;
+}
+img[alt=multi_repos_1] {
+    margin-top: -20px;
+}
+img[alt=multi_repos_2] {
+    margin-top: -230px;
+}
+img[alt=multi_repos_3] {
+    margin-top: -450px;
+}
+img[alt=multi_repos_4] {
+    margin-top: -683px;
+    margin-left: -20px;
+}
+img[alt=multi_repos_5] {
+    margin-top: -905px;
+    margin-left: -20px;
+}
+
+.graph_img_2 {
+    height: 150px;
+    overflow: hidden;
+}
+img[alt=graph_img_2] {
+    margin-top: -10px;
+}
+.graph_img_3 {
+    height: 250px;
+    overflow: hidden;
+}
+img[alt=graph_img_3] {
+    margin-top: -160px;
+}
+
+img[alt=vfs_for_monorepos] {
+    width: 75%;
+}
+
+img[alt=moab_pipeline] {
+    width: 112%;
+    margin-left: -6%;
+}
+
+img[alt=moab_from_heads_1] {
+    margin-top: -0px;
+}
+.moab_from_heads_1 {
+    height: 220px;
+    overflow: hidden;
+    width: 650px;
+}
+img[alt=moab_from_heads_2] {
+    margin-top: -310px;
+}
+.moab_from_heads_2 {
+    height: 400px;
+    overflow: hidden;
+}
+
+img[alt=partial_checkout] {
+    width: 104%;
+    margin-left: -2%;
+}
+
+img[alt=sql_projects] {
+    width: 112%;
+    margin-left: -6%;
+}
+
+img[alt=chef_pipeline] {
+    width: 112%;
+    margin-left: -6%;
+}
+
+img[alt=deployment_pipeline] {
+    width: 112%;
+    margin-left: -6%;
+}
+
+.job_tables {
+    font-size: 86%;
+    font-family: 'Roboto Mono';
+}
+.job_tables th, td {
+    padding: 0.12em 0.4em;
+}
